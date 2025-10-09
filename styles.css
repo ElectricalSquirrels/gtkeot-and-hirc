@@ -6,37 +6,42 @@ body {
     padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+.header-container {
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+.right-container {
     align-items: center;
-    margin-right: 280px;
-    background: lightblue;
-    padding: 20px 40px;
+    justify-content: center;
+    margin-right: 400px;
 }
 
-.header-text {
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    flex-grow: 1;
+.left-container {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 1000px;
+    width: 200px;
+    margin-left: 100px;
 }
 
-.main {
-    padding: 20px;
+.bottom-container {
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.team-photo {
-    width: 80%;
-    max-width: 600px;
-    margin: 20px auto;
-    display: block;
-    border: 3px solid #ccc;
-}
-
-
-section {
-    margin-top: 40px;
+.left-container li {
+    list-style-type: none;
+    margin-left: -35px;
+    margin-bottom: 20px;
 }
 
 .team-photo {
@@ -60,16 +65,17 @@ section {
     transition: transform 0.3s ease;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
     height: auto;
-    margin-left: 70px;
-    margin-top: 30px;
     border: 1.5px solid #667eea;
     border-radius: 8px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin-bottom: 75px;
+    margin-top: -275px;
 }
 
 .logo-container img:hover {
     transform: rotate(10deg) scale(1.1);
 }
+
 
 /*Grid style*/
 .team-grid {
@@ -100,9 +106,10 @@ section {
 }
 
 .member a {
-    color: #007acc;
-    text-decoration: none;
     font-weight: 500;
+    /* color: #007acc;
+    text-decoration: none;
+    */
 }
 
 .member a:hover {
@@ -110,14 +117,6 @@ section {
     color: black;
 }
 
-/* ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
 
 a {
     color: #0077cc;
@@ -127,4 +126,4 @@ a {
 a:hover {
     text-decoration: underline;
     color: black;
-} */
+}
