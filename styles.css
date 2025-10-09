@@ -1,0 +1,90 @@
+ body {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+     background: linear-gradient(120deg, #e0f7fa 0%, #b2ebf2 100%);
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-right: 280px;
+     background: linear-gradient(120deg, #e0f7fa 0%, #b2ebf2 100%);
+     padding: 20px 40px;
+ }
+
+ .header-text {
+     text-align: center;
+     width: 100%;
+     margin: 0;
+     flex-grow: 1;
+ }
+
+ .main {
+     padding: 20px;
+ }
+
+ .team-photo {
+     width: 80%;
+     max-width: 600px;
+     margin: 20px auto;
+     display: block;
+     border: 3px solid #ccc;
+ }
+
+ ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ li {
+     margin: 10px 0;
+ }
+
+ a {
+     color: #0077cc;
+     text-decoration: none;
+ }
+
+ a:hover {
+     text-decoration: underline;
+     color: black;
+ }
+
+ section {
+     margin-top: 40px;
+ }
+
+ .team-photo {
+     width: 80%;
+     max-width: 600px;
+     margin: 20px auto;
+     display: block;
+     border: 3px solid #667eea;
+     border-radius: 15px;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .team-photo:hover {
+     transform: scale(1.05);
+     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+ }
+
+ .logo-container img {
+     width: 200px;
+     transition: transform 0.3s ease;
+     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+     height: auto;
+     margin-left: 70px;
+     margin-top: 30px;
+     border: 1.5px solid #667eea;
+     border-radius: 8px;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+ }
+
+ .logo-container img:hover {
+     transform: rotate(10deg) scale(1.1);
+ }
