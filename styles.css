@@ -97,7 +97,6 @@ section {
 
 .member h3 {
     margin-bottom: 10px;
-    color: #333;
 }
 
 .member a {
@@ -108,6 +107,7 @@ section {
 
 .member a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 /* ul {
