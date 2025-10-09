@@ -1,6 +1,7 @@
 # 🐿️ Electrical Squirrels Team Page
 
 A showcase of our scrum team using HTML and CSS!
+Here is the link: https://team-web-app-fak-acg8g0gudwg3adap.canadacentral-01.azurewebsites.net/
  
 ## 🛠️ Technologies Used
 - HTML
