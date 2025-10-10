@@ -1,4 +1,4 @@
-# 🐿️ Electrical Squirrels Team Page
+# 🐿️ ElectricalSquirrels Team Page
 
 A showcase of our scrum team using HTML and CSS!
 
