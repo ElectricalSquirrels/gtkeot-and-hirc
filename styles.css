@@ -135,7 +135,7 @@ body {
 }
 
 .member a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
 
@@ -146,6 +146,6 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
 }
