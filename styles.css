@@ -30,7 +30,7 @@ body {
     align-content: center;
     height: 1000px;
     width: 200px;
-    margin-left: 100px;   
+    margin-left: 100px;
 }
 
 
@@ -48,13 +48,19 @@ body {
     border-radius: 15px;
     padding: 10px;
     display: block;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
-.left-container li:hover{
+.left-container a{
+    padding: 10px;
+    display: block;
+}
+
+.left-container li:hover {
     transform: scale(1.05);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 
 }
 
